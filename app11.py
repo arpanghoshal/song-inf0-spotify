@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 app=Flask(__name__)
 CORS(app)
 
-client_id = "f25ca164f4be46c3b3ee7717d200bb7c"
-client_secret = "dda0905887ab4cf29bbf17c4f7325201"
+client_id = "***"
+client_secret = "***"
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 
